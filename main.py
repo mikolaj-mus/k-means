@@ -57,6 +57,7 @@ while True:
             S3.append(point)
 
     if S1 == S1_old and S2 == S2_old and S3 == S3_old:
+        plt.pause(2)
         plt.close(fig)
         break
 
