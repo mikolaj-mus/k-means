@@ -36,8 +36,9 @@ ax.text(0, 1.15, "Iteration: 0", fontsize=20, color='black', ha='center')
 
 plt.pause(1)
 
-# K-means iteration
-S1_old = S2_old = S3_old = []
+S1_old = []
+S2_old = []
+S3_old = []
 iteration = 0
 
 while True:
